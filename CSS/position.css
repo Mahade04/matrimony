@@ -1,0 +1,108 @@
+.green-box {
+  width: 300px;
+  height: 200px;
+  background: green;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: sticky;
+}
+
+.red-box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.m {
+  border: 3px solid red;
+  padding: 50px;
+  margin-top: 10px;
+  position: sticky;
+  top: 0;
+}
+
+p {
+  border: 5px solid red;
+  padding: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  overflow: scroll;
+}
+
+.box {
+  height: 200px;
+  background: red;
+  width: 200px;
+  float: left;
+  border: 5px solid black;
+}
+.box1 {
+  background: rgb(236, 240, 7);
+}
+.box2 {
+  background: rgb(18, 201, 57);
+}
+.box3 {
+  background: rgb(58, 9, 9);
+}
+.box4 {
+  background: rgb(192, 161, 161);
+}
+span.a {
+  background: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 5px solid rgb(32, 14, 14);
+}
+
+span.b {
+  height: 100px;
+  width: 100px;
+  display: inline;
+  background: rgb(192, 161, 161);
+  border: 5px solid black;
+}
+span.c {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.menu {
+  background: chocolate;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+ul li:hover a {
+  color: aqua;
+}

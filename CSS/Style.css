@@ -1,0 +1,198 @@
+h5 {
+  color: rgb(27, 4, 4);
+  text-align: center;
+}
+h1 {
+  color: rgb(109, 18, 18);
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(78, 15, 15);
+  text-align: center;
+  background-color: rgb(249, 250, 245);
+  line-height: 80px;
+  text-shadow: 1px 2px white;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+h3 {
+  color: rgb(143, 22, 127);
+}
+h4 {
+  text-align: center;
+  color: rgb(39, 1, 1);
+}
+a {
+  color: rgb(168, 24, 24);
+  padding: 5px 5px;
+  margin: 10px;
+}
+
+body {
+  background: rgb(138, 199, 199);
+  margin: 0%;
+}
+
+p {
+  margin: 10px;
+  outline-offset: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 30px;
+  line-height: 30px;
+  word-spacing: 30px;
+  text-shadow: 2px 2px white;
+}
+fieldset {
+  background-color: rgb(18, 157, 175);
+  color: rgb(10, 93, 141);
+}
+
+del {
+  color: rgb(54, 33, 4);
+}
+
+ins {
+  color: rgb(99, 59, 8);
+}
+details {
+  color: rgb(92, 54, 10);
+  background-color: rgb(255, 131, 131);
+  text-align: center;
+  background-size: auto;
+  border-width: 5px 50px;
+  border-style: solid;
+  border-color: rgb(14, 48, 199);
+  border-radius: 50px;
+}
+label {
+  color: rgb(109, 67, 11);
+}
+address {
+  color: rgb(153, 15, 146);
+}
+
+ol {
+  color: rgb(8, 51, 88);
+}
+
+caption {
+  color: black;
+}
+
+fieldset {
+  background-color: rgb(231, 205, 205);
+  color: black;
+  text-align: center;
+}
+label {
+  color: black;
+}
+
+img {
+  src: url("image2.jpg");
+  height: 300px;
+  width: 350px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+  transition: 15s;
+}
+
+.mainpage {
+  background: url("image 2.jpg");
+}
+
+img:hover {
+  width: 1850px;
+  height: 300px;
+  transition-delay: 2s;
+  transform: rotate(360deg);
+}
+.material-icons {
+  font-size: 50px;
+}
+
+.signup {
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 5px;
+  background: black;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+}
+ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: solid;
+  text-transform: capitalize;
+  padding: 50px;
+}
+
+ul li a:hover {
+  background: red;
+}
+.drop-content {
+  background: rgb(248, 248, 248);
+  box-shadow: 0 8px 16px 0 blueviolet;
+  display: none;
+  position: absolute;
+  min-width: 20px;
+}
+.drop-content a {
+  display: block;
+  color: black;
+}
+
+.dropdown:hover .drop-content {
+  display: block;
+}
+
+.icons ul {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(138, 199, 199);
+}
+
+.icons ul li {
+  list-style-type: none;
+}
+.icons ul li:last-child {
+  margin-right: 0;
+}
+
+.icons ul li a {
+  background-image: url("download.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: -20px;
+  height: -20px;
+  display: inline-block;
+  border: 2px solid red;
+  background-repeat: no-repeat;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+.icons ul li:hover:nth-child(1) a {
+  background-position: 0px -98px;
+}
+
+.icons ul li:nth-child(2) a {
+  background-position: -599px 0;
+}
+.icons ul li:hover:nth-child(2) a {
+  background-position: -599px -98px;
+}
+.icons ul li:nth-child(3) a {
+  background-position: -400px 1px;
+}
+.icons ul li:hover:nth-child(3) a {
+  background-position: -400px -98px;
+}

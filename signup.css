@@ -1,0 +1,102 @@
+body {
+  width: 1980px;
+  height: 1040px;
+  background: url("signup.jpg");
+  background-size: cover;
+}
+
+.login {
+  width: 600px;
+  height: 700px;
+  background: black;
+  color: red;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  color: aliceblue;
+  text-align: left;
+}
+ul {
+  margin: 0;
+  padding: 5px;
+  background: black;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+}
+ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: solid;
+  text-transform: capitalize;
+  padding: 50px;
+}
+
+ul li a:hover {
+  background: red;
+}
+.drop-content {
+  background: rgb(248, 248, 248);
+  box-shadow: 0 8px 16px 0 blueviolet;
+  display: none;
+  position: relative;
+  min-width: 20px;
+}
+.drop-content a {
+  display: block;
+  color: black;
+}
+
+.dropdown:hover .drop-content {
+  display: block;
+}
+
+.icons ul {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.icons ul li {
+  list-style-type: none;
+}
+.icons ul li:last-child {
+  margin-right: 0;
+}
+
+.icons ul li a {
+  background-image: url("../css/download.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: -20px;
+  height: -20px;
+  display: inline-block;
+  border: 2px solid red;
+  background-repeat: no-repeat;
+  border-radius: 25%;
+  transition: 1s;
+}
+.icons ul li:hover:nth-child(1) a {
+  background-position: 0px -98px;
+}
+
+.icons ul li:nth-child(2) a {
+  background-position: -599px 0;
+}
+.icons ul li:hover:nth-child(2) a {
+  background-position: -599px -98px;
+}
+.icons ul li:nth-child(3) a {
+  background-position: -400px 1px;
+}
+.icons ul li:hover:nth-child(3) a {
+  background-position: -400px -98px;
+}
